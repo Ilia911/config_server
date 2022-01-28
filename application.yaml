@@ -1,5 +1,5 @@
 my:
-  greeting: Hello from configuration file on GitHub!
+  greeting: Hello from configuration file on GitHub. This file was edited!
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
