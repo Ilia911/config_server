@@ -1,5 +1,5 @@
 my:
-  greeting: Hello from configuration file on GitHub. This file was edited nine times
+  greeting: Hello from configuration file on GitHub. Password is '{cipher}ce70ed91e01796d181711d7c67c4475df8b5967a7e54ff85921e84426f8fea62'
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
