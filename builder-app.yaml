@@ -1,27 +1,4 @@
 my:
-  greeting: '{cipher}7ba4a4dd31b082340caee64412871d30f08e35d40d447b0a44ca20ab6026600cdf4c647fe1523a2698cd92c1cf9997f2'
   another: hello from builder-app.yaml
-spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/builder
-    username: user
-    password: '{cipher}ce70ed91e01796d181711d7c67c4475df8b5967a7e54ff85921e84426f8fea62'
-  jpa:
-    show-sql: true
-    hibernate.ddl-auto: validate
-    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
-  aop:
-    proxy-target-class: false
-logging:
-  config: src/main/resources/log4j2-spring.xml
-#  level.root: info
-server:
-  error:
-    include-stacktrace: never
-    include-message: always
-jwt:
-  secret: secret
-  expiration: 600000
-  header: Authorization
+
 
