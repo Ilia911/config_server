@@ -1,6 +1,6 @@
 my:
   greeting: '{cipher}7ba4a4dd31b082340caee64412871d30f08e35d40d447b0a44ca20ab6026600cdf4c647fe1523a2698cd92c1cf9997f2'
-  another: hello
+  another: hello from application.yaml
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
