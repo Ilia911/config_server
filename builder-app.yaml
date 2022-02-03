@@ -1,3 +1,4 @@
 my:
-  greeting2 hello from builder-app.yaml
+  greeting2: hello from builder-app.yaml
+  another: edited in builder-app.yaml
 
